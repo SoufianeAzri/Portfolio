@@ -1,7 +1,4 @@
 import React from 'react'
-import Working from '../assets/projects/workImg.jpeg';
-import realState from '../assets/projects/realestate.jpg';
-import carhub from '../assets/projects/carhub.png'
 import { Projects } from '../Projects';
 import WorkCard from './WorkCard';
 

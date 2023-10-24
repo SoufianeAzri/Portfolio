@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import Logo from '../assets/logo.png'
 import {FaBars,FaTimes} from 'react-icons/fa'
 import {Link} from 'react-scroll'
-import { useNavigate } from 'react-router-dom'
 
 const Navbar = () => {
     const [toggle,setToggle] = useState(false);
