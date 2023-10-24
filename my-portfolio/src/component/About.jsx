@@ -12,10 +12,10 @@ const About = () => {
             </div>
             <div className='grid sm:grid-cols-2 max-w-[1000px] w-full gap-8 py-2 px-4 items-center'>
                 <div className='sm:text-right text-4xl font-bold'>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, qui.</p>
+                    <p>I'm a 21-year-old with a Bachelor's degree in Computer Science, and I'm passionate about web development.</p>
                 </div>
                 <div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, optio quasi laudantium recusandae enim at molestias omnis natus dolorem sapiente voluptas rerum facere quidem eveniet quod aliquid eos eum magnam?</p>
+                    <p>With a strong foundation in front-end technologies like HTML, CSS, JavaScript, React, and Next.js, I love creating user-friendly and visually appealing websites. What sets me apart is my knack for problem-solving, a skill honed through my academic journey. I've also gained practical experience and teamwork skills during my involvement in the university club, Debug Club. I'm a self-learner and I'm always eager to expand my knowledge. Through my journey, I aim to not only build great websites but also contribute to solving real-world problems through technology.</p>
                 </div>
             </div>
         </div>

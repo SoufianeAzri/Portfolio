@@ -6,7 +6,7 @@ import Node from './assets/node.png';
 import FireBase from './assets/firebase.png';
 import GitHub from './assets/github.png';
 import Tailwind from './assets/tailwind.png';
-import Mongo from './assets/mongo.png';
+import Next from './assets/next.png';
 
 export const SKILL = [
     {
@@ -27,12 +27,12 @@ export const SKILL = [
     {
         id: 3,
         image: ReactImg,
-        text: 'ReactImg'
+        text: 'React'
     },
     {
         id: 4,
-        image: Node,
-        text: 'Node'
+        image: Next,
+        text: 'Next'
     },
     {
         id: 5,

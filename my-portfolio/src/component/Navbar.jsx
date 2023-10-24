@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from '../assets/logo1.png'
+import Logo from '../assets/logo.png'
 import {FaBars,FaTimes} from 'react-icons/fa'
 import {Link} from 'react-scroll'
 import { useNavigate } from 'react-router-dom'
@@ -7,9 +7,9 @@ import { useNavigate } from 'react-router-dom'
 const Navbar = () => {
     const [toggle,setToggle] = useState(false);
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-50">
         <div className="logo">
-            <img className='h-[60px]' src={Logo} alt="" />
+            <img className='h-[30px]' src={Logo} alt="" />
         </div>
         <div className="links-content hidden md:flex">
             <ul className="links flex">

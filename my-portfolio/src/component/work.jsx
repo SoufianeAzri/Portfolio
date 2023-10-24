@@ -1,6 +1,9 @@
 import React from 'react'
 import Working from '../assets/projects/workImg.jpeg';
 import realState from '../assets/projects/realestate.jpg';
+import carhub from '../assets/projects/carhub.png'
+import { Projects } from '../Projects';
+import WorkCard from './WorkCard';
 
 export const Work = () => {
   return (
@@ -11,8 +14,20 @@ export const Work = () => {
                 <p className='py-6'>//Check my recently works</p>
             </div>
             <div className='grid sm:grid-cols-2 md:grid-cols-3 w-full h-full gap-4'>
-                <div style={{backgroundImage: `url(${Working})`}} className='shadow-lg shadow-[#040c16] group container rounded-md mx-auto flex justify-center items-center h-full content-div'>
-                    <div className='opacity-0 group-hover:opacity-100'>
+               {
+                /* 
+                <div className='shadow-lg shadow-[#040c16] rounded-md mx-auto h-[380px] p-4'>
+                <div style={{backgroundImage : `url("${carhub}")`}} className='w-full h-[65%] bg-center bg-cover rounded-md'>
+                    </div>
+                    <div className='py-2'>
+                       <h1 className='font-bold text-[20px]'>Car Hub</h1>
+                       <p className='font-semibold text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit.fuga dolorum aspernatur. Molestiae, harum.</p>
+                       <ul className='flex gap-2 pt-2 text-[14px]'>
+                          <li className='text-[red] p-0'>#Next js</li>
+                          <li className='text-[blue] p-0'>#Typescript</li>
+                       </ul>
+                    </div>
+                    {/*<div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>React Application</span>
                         <div className='pt-8 text-center'>
                             <a href="">
@@ -22,9 +37,15 @@ export const Work = () => {
                                 <button className='text-center px-4 py-2 m-2 bg-white text-[#0a192f] rounded font-bold'>Demo</button>
                             </a>
                         </div>
-                    </div>
-                </div>
-                <div style={{backgroundImage: `url(${Working})`}} className='shadow-lg shadow-[#040c16] group container rounded-md mx-auto flex justify-center items-center h-full content-div'>
+                    </div>}
+                </div>*/
+               }
+                {
+                    Projects.map((project)=>(
+                        <WorkCard item={project} />
+                    ))
+                }
+                {/*<div style={{backgroundImage: `url(${Working})`}} className='shadow-lg shadow-[#040c16] group container rounded-md mx-auto flex justify-center items-center h-full content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>React Application</span>
                         <div className='pt-8 text-center'>
@@ -86,7 +107,7 @@ export const Work = () => {
                             </a>
                         </div>
                     </div>
-                </div>
+            </div>*/}
             </div>
         </div>
     </div>
