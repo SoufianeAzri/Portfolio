@@ -13,10 +13,10 @@ const Home = () => {
         <div className='flex justify-center max-w-[1000px] flex-col mx-auto lg:px-20 px-8 h-full'>
             <p className='text-pink-600 text-x'>Hello my name is ,</p>
             <h1 className='text-4xl text-gray-300 sm:text-6xl font-semibold'>Soufiane Azri</h1>
-            <h2 className='text-4xl text-[#8892b0] sm:text-6xl font-semibold'>I'm front end devoloper.</h2>
-            <p className='text-xl text-[#8892b0] max-w-[600px] py-3'>And i have baccalaureus degree in computer science in Universty of Mohamed Kheider Bisckra.</p>
+            <h2 className='text-4xl text-[#8892b0] sm:text-6xl font-semibold'>I'm front-end devoloper.</h2>
+            <p className='text-xl text-[#8892b0] max-w-[600px] py-3'>I'm a passionate and responsible <span className='border-b border-pink-600 border-solid'>front-end devoloper,</span> with a 1 year of experience in freelancing. Skilled in devloping highly responsive websites with elegant and efficient code</p>
             <div>
-              <Link to='work' smooth={true} duration={500}><button className=' text-white group flex items-center px-6 py-2 border-2 my-2 hover:bg-pink-600 hover:border-pink-600'>View Work <span className='group-hover:rotate-90 duration-300'><HiArrowRight className='ml-2'/></span></button>
+              <Link to='work' smooth={true} duration={500}><button className=' text-white group flex items-center px-6 py-2 border-2 my-2 hover:bg-pink-400 hover:border-pink-600'>View Work <span className='group-hover:rotate-90 duration-300'><HiArrowRight className='ml-2'/></span></button>
               </Link>
             </div>
         </div>

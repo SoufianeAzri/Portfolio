@@ -14,8 +14,11 @@ const About = () => {
                 <div className='sm:text-right text-4xl font-bold'>
                     <p>I'm a 21-year-old with a Bachelor's degree in Computer Science, and I'm passionate about web development.</p>
                 </div>
-                <div>
-                    <p>With a strong foundation in front-end technologies like HTML, CSS, JavaScript, React, and Next.js, I love creating user-friendly and visually appealing websites. What sets me apart is my knack for problem-solving, a skill honed through my academic journey. I've also gained practical experience and teamwork skills during my involvement in the university club, Debug Club. I'm a self-learner and I'm always eager to expand my knowledge. Through my journey, I aim to not only build great websites but also contribute to solving real-world problems through technology.</p>
+                <div className='flex gap-4 flex-col'>
+                    <p><span className='font-bold'>With a strong foundation in front-end technologies</span> like HTML, CSS, JavaScript, React, and Next.js, I love creating user-friendly and visually appealing websites.</p>
+                    <p>What sets me apart is my knack for problem-solving, a skill honed through my academic journey.</p>
+                    <p>I've also gained practical experience and teamwork skills during my involvement in the university club, Debug Club. </p>
+                    <p>I'm a self-learner and I'm always eager to expand my knowledge. Through my journey, I aim to not only build great websites but also contribute to solving real-world problems through technology.</p>
                 </div>
             </div>
         </div>
