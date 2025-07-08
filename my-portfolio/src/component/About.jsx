@@ -12,7 +12,7 @@ const About = () => {
             </div>
             <div className='grid sm:grid-cols-2 max-w-[1000px] w-full gap-8 py-2 px-4 items-center'>
                 <div className='sm:text-right text-4xl font-bold'>
-                    <p>I'm a 21-year-old with a Bachelor's degree in Computer Science, and I'm passionate about web development.</p>
+                    <p>I'm a 22-year-old with a Masters's degree in Computer Science (IAGE), and I'm passionate about web development.</p>
                 </div>
                 <div className='flex gap-4 flex-col'>
                     <p><span className='font-bold'>With a strong foundation in front-end technologies</span> like HTML, CSS, JavaScript, React, and Next.js, I love creating user-friendly and visually appealing websites.</p>

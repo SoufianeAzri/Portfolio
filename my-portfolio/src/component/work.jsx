@@ -5,7 +5,7 @@ import WorkCard from './WorkCard';
 export const Work = () => {
   return (
     <div name='work' className='pb-8 w-full text-gray-300  bg-[#0a192f]'>
-        <div className='w-full flex flex-col p-4 mx-auto max-w-[1000px] justify-center h-full'>
+        <div className='w-full flex flex-col p-4 mx-auto max-w-[1100px] justify-center h-full'>
             <div>
                 <p className='text-4xl border-b-8 font-bold inline border-pink-600'>Work</p>
                 <p className='py-6'>//Check my recently works</p>
