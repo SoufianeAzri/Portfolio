@@ -61,8 +61,7 @@ export const Projects = [
     descreption:
       "AI-powered risk management platform identifying, analyzing, and mitigating threats with real-time actionable insights.",
     tags: ["React", "Javascript"],
-    gitHubLink:
-      "",
+    gitHubLink: "",
     year: "2024",
   },
   {
@@ -73,8 +72,7 @@ export const Projects = [
     descreption:
       "Risk management platform with AI threat detection, live reporting, and intuitive dashboard controls.",
     tags: ["React", "Javascript"],
-    gitHubLink:
-      "",
+    gitHubLink: "",
     year: "2024",
   },
   {
@@ -85,8 +83,7 @@ export const Projects = [
     descreption:
       "A unified booking platform for hotels, restaurants, and trips with real-time availability checks and instant reservations.",
     tags: ["React", "Javascript", "Typescript"],
-    gitHubLink:
-      "",
+    gitHubLink: "",
     year: "2025",
   },
 
@@ -96,8 +93,8 @@ export const Projects = [
     image: ecommerce,
     link: "https://e-commerce-xx5i.vercel.app/",
     descreption:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.fuga dolorum aspernatur. Molestiae, harum.",
-    tags: ["Html", "Css", "Javascript"],
+      "A simple e-commerce website for browsing products, adding to cart, and easy checkout—designed for a basic shopping experience.",
+    tags: ["React", "Javascript"],
     gitHubLink: "https://github.com/SoufianeAzri/E-commerce",
     year: "2022",
   },
@@ -107,8 +104,8 @@ export const Projects = [
     image: elzero,
     link: "https://soufianeazri.github.io/Sofiane-Elz/",
     descreption:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit.fuga dolorum aspernatur. Molestiae, harum.",
-    tags: ["React", "Javascript"],
+      "A driven team delivering excellence in tech field through innovation, skill, ideas, and shared ambition.",
+    tags: ["Html", "Css", "Javascript"],
     gitHubLink:
       "https://github.com/SoufianeAzri/E-commerce/tree/master/my-website",
     year: "2021",
